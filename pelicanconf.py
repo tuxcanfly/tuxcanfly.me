@@ -20,8 +20,9 @@ LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
 
 # Social widget
 SOCIAL = (('Github', 'http://github.com/tuxcanfly'),
-          ('Google', 'https://plus.google.com/u/0/105411960072575411330/about'),
           ('Twitter', 'http://twitter.com/#!/tuxcanfly'),
+          ('Bitbucket', 'http://bitbucket.org/tuxcanfly'),
+          ('Google', 'http://plus.google.com/u/0/105411960072575411330/about'),
          )
 
 DEFAULT_PAGINATION = 10
@@ -65,4 +66,5 @@ GPLUS_API_ACCESS = 'AIzaSyDB2JaMR42m43sJ06IYZV0s6H1JI4WyZT0'
 TWITTER_INTEGRATION_ENABLED = True
 TWITTER_USERNAME = 'tuxcanfly'
 BITBUCKET_INTEGRATION_ENABLED = True
+BITBUCKET_USERNAME = 'tuxcanfly'
 CONTACT = u'tuxcanfly@gmail.com'
