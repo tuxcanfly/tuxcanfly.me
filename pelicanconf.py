@@ -41,6 +41,8 @@ FEED_RSS = 'feeds/all.xml'
 GRAVATAR = 'http://www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5.png'
 AUTHOR_EMAIL = 'tuxcanfly@gmail.com'
 
+DISQUS_SITENAME = 'tuxcanfly-github'
+
 
 # Syte theme specific settings
 ##############################
