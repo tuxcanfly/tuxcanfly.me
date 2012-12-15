@@ -44,6 +44,10 @@ control it.
 Make sure you create a backup of your current config using the Export option
 before you start.
 
+Here's my `compiz config`_ if you want to import it.
+
+.. _compiz config: https://gist.github.com/4296914
+
 
 Commands
 =========
