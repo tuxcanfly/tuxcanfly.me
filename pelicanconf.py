@@ -6,7 +6,7 @@ SITENAME = u'Does not compute'
 SITEURL = 'https://tuxcanfly.github.com'
 
 DEFAULT_LANG = 'en'
-LOCALE = ('en_US')
+LOCALE = ('en_IN')
 
 TIMEZONE = 'Asia/Kolkata'
 
