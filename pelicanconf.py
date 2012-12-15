@@ -42,7 +42,7 @@ GRAVATAR = 'http://www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5.png'
 AUTHOR_EMAIL = 'tuxcanfly@gmail.com'
 
 DISQUS_SITENAME = 'tuxcanfly-github'
-
+GOOGLE_ANALYTICS = 'UA-37076247-1'
 
 # Syte theme specific settings
 ##############################
