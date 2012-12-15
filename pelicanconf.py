@@ -48,7 +48,7 @@ DISQUS_SITENAME = 'tuxcanfly-github'
 ##############################
 
 # HTML related settings
-ABOUT = u'Self-conscious life form, currently inhabiting the planet Earth.'
+ABOUT = u'Self-conscious life form, currently inhabiting the planet Earth. Writes code for a living.'
 SITE_DESCRIPTION = u'Personal website and blog of Jakh Daven aka tuxcanfly.'
 SITE_KEYWORDS = u'python, django, tuxcanfly, jakh daven'
 WEBASSETS = True
