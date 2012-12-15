@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Does not compute</title><link>https://tuxcanfly.github.com/</link><description></description><atom:link href="https://tuxcanfly.github.com/feeds/all.xml" rel="self"></atom:link><lastBuildDate>Sat, 15 Dec 2012 17:00:00 +0530</lastBuildDate><item><title>Boost your productivity with compiz</title><link>https://tuxcanfly.github.com/compiz-productivity.html</link><description>&lt;div class="section" id="summary"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Does not compute</title><link>http://tuxcanfly.github.com/</link><description></description><atom:link href="https://tuxcanfly.github.com/feeds/all.xml" rel="self"></atom:link><lastBuildDate>Sat, 15 Dec 2012 17:00:00 +0530</lastBuildDate><item><title>Boost your productivity with compiz</title><link>http://tuxcanfly.github.com/compiz-productivity.html</link><description>&lt;div class="section" id="summary"&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;p&gt;Compiz provides powerful window control features which can be used to improve
 daily work flow.&lt;/p&gt;
@@ -83,4 +83,4 @@ Move Right -&amp;gt; &amp;lt;Shift&amp;gt;&amp;lt;Control&amp;gt;&amp;lt;Primary
 &lt;p&gt;I find compiz's features and customizability very useful and I hope you do too.&lt;/p&gt;
 &lt;p&gt;Let me know if you know any useful tips in comments.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Javed Khan</dc:creator><pubDate>Sat, 15 Dec 2012 17:00:00 +0530</pubDate><guid>tag:https://tuxcanfly.github.com,2012-12-15:compiz-productivity.html</guid><category>compiz</category></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Javed Khan</dc:creator><pubDate>Sat, 15 Dec 2012 17:00:00 +0530</pubDate><guid>tag:tuxcanfly.github.com,2012-12-15:compiz-productivity.html</guid><category>compiz</category></item></channel></rss>
