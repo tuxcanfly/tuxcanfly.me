@@ -70,7 +70,16 @@ ftp_upload: publish
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
 
 github: publish
-	ghp-import $(OUTPUTDIR)
-	git push origin gh-pages
+	git branch -D master
+	git checkout --orphan master
+	git rm -rf .
+	rm *.pyc
+	find output -mindepth 1 -maxdepth 1 -exec mv -t. -- {} +
+	rmdir output
+	git add .
+	git commit -m "new post"
+	git merge -s ours origin/master
+	git push origin master
+	git checkout -
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
