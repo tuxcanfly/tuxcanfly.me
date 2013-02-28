@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Does not compute</title><link href="http://tuxcanfly.github.com/" rel="alternate"></link><link href="https://tuxcanfly.github.com/feeds/FOSS.atom.xml" rel="self"></link><id>http://tuxcanfly.github.com/</id><updated>2013-02-28T21:00:00+05:30</updated><entry><title>Month of my FOSS contributions - Feb '13</title><link href="http://tuxcanfly.github.com/month-of-foss-contributions-feb-13.html" rel="alternate"></link><updated>2013-02-28T21:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2013-02-28:month-of-foss-contributions-feb-13.html</id><summary type="html">&lt;div class="section" id="whoosh"&gt;
+&lt;h2&gt;Whoosh&lt;/h2&gt;
+&lt;p&gt;While trying to work on django-haystack, I found a bug reported by Zed Shaw
+where a search query would crash the search page provided by haystack.&lt;/p&gt;
+&lt;p&gt;Upon digging into haystack and whoosh, I found that there's a edge case in the
+whoosh query parser where passing a query containg a stop word and negative
+filter can raise an error (e.g: the query string ?q=-1). I figured out a simple
+fix and submitted a pull request which was promptly accepted.&lt;/p&gt;
+&lt;p&gt;I was hoping to find something to contribute to haystack and help with the
+maintanance, but looks like it will have to wait untill I get some more time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="django-browserid"&gt;
+&lt;h2&gt;django-browserid&lt;/h2&gt;
+&lt;p&gt;I have always been a fan of mozilla and django-browserid looks like the perfect
+match for me to contribute towards. I tried out the library by going through
+the docs and found it to be a breeze. I was able to improve the docs a bit and
+triage a few bugs.&lt;/p&gt;
+&lt;p&gt;I have to say people working on this project are very helpful and
+understanding. Looking forward to spending more time on this project in the
+future.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="future"&gt;
+&lt;h2&gt;Future&lt;/h2&gt;
+&lt;p&gt;Here's to bigger, better things!&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="foss"></category><category term="contributions"></category></entry></feed>
