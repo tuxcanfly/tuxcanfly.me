@@ -78,8 +78,8 @@ github: publish
 	rmdir output
 	git add .
 	git commit -m "new post"
-	git merge -s ours origin/master
+	git merge -s ours origin/master --no-edit
 	git push origin master
-	git checkout -
+	git checkout blog
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
