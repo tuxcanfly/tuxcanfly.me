@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Does not compute</title><link href="http://tuxcanfly.github.com/" rel="alternate"></link><link href="https://tuxcanfly.github.com/feeds/all.atom.xml" rel="self"></link><id>http://tuxcanfly.github.com/</id><updated>2013-03-30T17:00:00+05:30</updated><entry><title>Logging in Django</title><link href="http://tuxcanfly.github.com/logging-in-django.html" rel="alternate"></link><updated>2013-03-30T17:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2013-03-30:logging-in-django.html</id><summary type="html">&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;This was a talk I presented at Hyderbad Python meetup - March 2013&lt;/p&gt;
+&lt;script async class="speakerdeck-embed" data-id="b33f5e2074ec0130286a22000a1f8aa6" data-ratio="1.33333333333333" src="http://speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;&lt;/div&gt;
+</summary><category term="django"></category><category term="talk"></category></entry><entry><title>Month of FOSS contributions - Feb '13</title><link href="http://tuxcanfly.github.com/month-of-foss-contributions-feb-13.html" rel="alternate"></link><updated>2013-02-28T21:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2013-02-28:month-of-foss-contributions-feb-13.html</id><summary type="html">&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;I'm documenting my contributions to FOSS every month from now for two purposes:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;As a log of my activity&lt;/li&gt;
+&lt;li&gt;To serve as a motivation for further participation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Psst, also for boasting about it, wink wink.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="whoosh"&gt;
+&lt;h2&gt;Whoosh&lt;/h2&gt;
+&lt;p&gt;While trying to work on django-haystack, I found a bug reported by Zed Shaw
+where a search query would crash the search page provided by haystack.&lt;/p&gt;
+&lt;p&gt;Upon digging into haystack and whoosh, I found that there's a edge case in the
+whoosh query parser where passing a query containg a stop word and negative
+filter can raise an error (e.g: the query string &lt;cite&gt;?q=-1&lt;/cite&gt;). I figured out a simple
+fix and submitted a pull request which was promptly accepted.&lt;/p&gt;
+&lt;p&gt;I was hoping to find something to contribute to haystack and help with the
+maintanance, but looks like it will have to wait untill I get some more time.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://bitbucket.org/mchaput/whoosh/commits/362fc2999c8cabc51370f433de7402fafd536ec6"&gt;362fc299&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="django-browserid"&gt;
+&lt;h2&gt;django-browserid&lt;/h2&gt;
+&lt;p&gt;I have always been a fan of mozilla and django-browserid looks like the perfect
+match for me to contribute towards. I tried out the library by going through
+the docs and found it to be a breeze. I was able to improve the docs a bit and
+triage a few bugs.&lt;/p&gt;
+&lt;p&gt;I have to say people working on this project are very helpful and
+understanding. Looking forward to spending more time on this project in the
+future.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/mozilla/django-browserid/commit/f5fc0f124fda1fded862863ef56cab11f23c308d"&gt;f5fc0f12&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/mozilla/django-browserid/commit/b9a17a4088211908de2a17a57668a646555f068a"&gt;b9a17a408&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I really enjoyed working on these projects, and I'm looking forward to speding more time to get more
+comfortable with them and contributing even more. Here's to bigger, better things!&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="foss"></category><category term="contributions"></category></entry><entry><title>Developing Ubuntu Apps for fun and profit</title><link href="http://tuxcanfly.github.com/pycon-india-2012-talk.html" rel="alternate"></link><updated>2013-02-23T17:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2013-02-23:pycon-india-2012-talk.html</id><summary type="html">&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;This was a talk I presented at PyCon India 2012.&lt;/p&gt;
+&lt;iframe src="https://docs.google.com/presentation/d/1FCkHcZ8cim0oy58sOcG7xeyL4HKmP4v8xR4_wdnLYxM/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"&gt;&lt;/iframe&gt;&lt;/div&gt;
+</summary><category term="ubuntu"></category><category term="talk"></category></entry><entry><title>Announcing Editorize beta</title><link href="http://tuxcanfly.github.com/announcing-editorize-beta.html" rel="alternate"></link><updated>2013-01-14T17:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2013-01-14:announcing-editorize-beta.html</id><summary type="html">&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Editorize summons up your favorite text editor with a global shortcut so that
+you can edit your text the way you want it. Close the file and the text
+automagically gets pasted in to the text field you were editing.&lt;/p&gt;
+&lt;p&gt;Editorize is in beta and needs some bugfixes/cleanup before it can be
+considered stable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="installation"&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install editorize is by &lt;a class="reference external" href="https://launchpad.net/~tuxcanfly/+archive/editorize"&gt;using the ppa&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-add-repository ppa:tuxcanfly/editorize
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After that, updated and install the &lt;cite&gt;editorize&lt;/cite&gt; package:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-get update
+sudo apt-get install editorize
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Source packages are available from the &lt;a class="reference external" href="https://launchpad.net/editorize"&gt;launchpad project page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now you should be able to launch the app from the start menu / dash or using
+the command &lt;cite&gt;editorize&lt;/cite&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="usage"&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;The default global keyboard shortcut for launching your default text editor is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;lt;Ctrl&amp;gt;&amp;lt;Alt&amp;gt;i
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Both the shortcut and text editor can be customized from the &lt;cite&gt;Preferences&lt;/cite&gt; menu
+of the App Indicator.&lt;/p&gt;
+&lt;p&gt;Just go to a text input field on any app and use the above keyboard shortcut
+and your text editor should pop open. Now enter your text, save and close the
+editor. The input text should get copied to the app.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="help-bugs"&gt;
+&lt;h2&gt;Help/Bugs:&lt;/h2&gt;
+&lt;p&gt;Please report &lt;a class="reference external" href="https://bugs.launchpad.net/editorize"&gt;bugs on launchpad&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="ubuntu"></category><category term="editorize"></category><category term="project"></category></entry><entry><title>Boost your productivity with compiz</title><link href="http://tuxcanfly.github.com/compiz-productivity.html" rel="alternate"></link><updated>2012-12-15T17:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2012-12-15:compiz-productivity.html</id><summary type="html">&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Compiz provides powerful window control features which can be used to improve
+daily work flow.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="installation"&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;To start off, you'll need to install the following additional packages:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;compizconfig-settings-manager compiz-plugins-main compiz-plugins-extra
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="warning"&gt;
+&lt;p class="first admonition-title"&gt;Warning&lt;/p&gt;
+&lt;p&gt;Before you proceed, you should know that fiddling with compiz is risky and
+will probably cause your desktop session to freeze if something goes wrong.&lt;/p&gt;
+&lt;p class="last"&gt;&lt;a class="reference external" href="http://www.ubuntugeek.com/enable-ctrl-alt-backspace-in-ubuntukubuntu-10-04lucid-lynx.html"&gt;Enable XServer Zap&lt;/a&gt; keyboard shortcut and be prepared to use it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="preferences"&gt;
+&lt;h2&gt;Preferences&lt;/h2&gt;
+&lt;p&gt;Checkout the Preferences options. I prefer the Flat-file configuration backend
+as I want to keep all my compiz configuration in a single file and version
+control it.&lt;/p&gt;
+&lt;p&gt;Make sure you create a backup of your current config using the Export option
+before you start.&lt;/p&gt;
+&lt;p&gt;Here's my &lt;a class="reference external" href="https://gist.github.com/4296914"&gt;compiz config&lt;/a&gt; if you want to import it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="commands"&gt;
+&lt;h2&gt;Commands&lt;/h2&gt;
+&lt;div class="figure align-center"&gt;
+&lt;a class="reference external image-reference" href="/images/commands.gif"&gt;&lt;img alt="Showcasing compiz commands" src="/images/commands.gif" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;I've mapped &amp;lt;Super&amp;gt;Return to my terminal (urxvt) and
+&amp;lt;Super&amp;gt;e to my editor (gvim)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The Commands plugin gives you a simple way to assign keyboard shortcuts to any
+command.&lt;/p&gt;
+&lt;p&gt;Figure out your most used commands/apps and assign shortcuts to them. No more
+wading your way through menus and searching for apps. Some commands I use:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;urxvt -&amp;gt; &amp;lt;Super&amp;gt;Return
+gvim -&amp;gt; &amp;lt;Super&amp;gt;e
+chromium-browser --incognito -&amp;gt; &amp;lt;Shift&amp;gt;&amp;lt;Super&amp;gt;w
+nautilus -&amp;gt; &amp;lt;Super&amp;gt;t
+gnome-screensaver-command --lock -&amp;gt; &amp;lt;Super&amp;gt;b
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="general"&gt;
+&lt;h2&gt;General&lt;/h2&gt;
+&lt;a class="reference external image-reference" href="/images/general.gif"&gt;&lt;img alt="Showcasing general key bindings" class="align-center" src="/images/general.gif" /&gt;&lt;/a&gt;
+&lt;p&gt;I find the key-bindings in this section very useful. For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Close Window -&amp;gt; &amp;lt;Super&amp;gt;q
+Toggle Window Maximizes -&amp;gt; &amp;lt;Super&amp;gt;m
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Combined with Commands plugin above, this configuration allows you to spawn,
+close and maximize/restore your windows all with key-bindings!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="extra-wm-actions"&gt;
+&lt;h2&gt;Extra WM Actions&lt;/h2&gt;
+&lt;a class="reference external image-reference" href="/images/extra.gif"&gt;&lt;img alt="Showcasing extra wm actions" class="align-center" src="/images/extra.gif" /&gt;&lt;/a&gt;
+&lt;p&gt;Ever wanted to turn a window fullscreen but couldn't because the app doesn't
+allow it?  Want to keep a window on top?&lt;/p&gt;
+&lt;p&gt;Extra WM actions provides key-bindings for these features. The mapping I use:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Toggle Fullscreen -&amp;gt; &amp;lt;Supfer&amp;gt;f
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="grid"&gt;
+&lt;h2&gt;Grid&lt;/h2&gt;
+&lt;a class="reference external image-reference" href="/images/grid.gif"&gt;&lt;img alt="Showcasing grid plugin" class="align-center" src="/images/grid.gif" /&gt;&lt;/a&gt;
+&lt;p&gt;Grid provides a window tiling feature with intuitive key-bindings. It's great
+for people coming from a tiling window manager (like me).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="desktop-wall-cube"&gt;
+&lt;h2&gt;Desktop Wall/Cube&lt;/h2&gt;
+&lt;a class="reference external image-reference" href="/images/desktops.gif"&gt;&lt;img alt="Showcasing desktop wall" class="align-center" src="/images/desktops.gif" /&gt;&lt;/a&gt;
+&lt;p&gt;Both plugins provide an intuitive UI for multiple workspaces and are very
+helpful for multitasking.&lt;/p&gt;
+&lt;p&gt;I map the Move Left/Right to keys on the home row:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Move Left -&amp;gt; &amp;lt;Shift&amp;gt;&amp;lt;Control&amp;gt;&amp;lt;Primary&amp;gt;&amp;lt;Super&amp;gt;j
+Move Right -&amp;gt; &amp;lt;Shift&amp;gt;&amp;lt;Control&amp;gt;&amp;lt;Primary&amp;gt;&amp;lt;Super&amp;gt;k
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I find compiz's features and customizability very useful and I hope you do too.&lt;/p&gt;
+&lt;p&gt;Let me know if you know any useful tips in comments.&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="compiz"></category></entry></feed>

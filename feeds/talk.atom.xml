@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Does not compute</title><link href="http://tuxcanfly.github.com/" rel="alternate"></link><link href="https://tuxcanfly.github.com/feeds/talk.atom.xml" rel="self"></link><id>http://tuxcanfly.github.com/</id><updated>2013-03-30T17:00:00+05:30</updated><entry><title>Logging in Django</title><link href="http://tuxcanfly.github.com/logging-in-django.html" rel="alternate"></link><updated>2013-03-30T17:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2013-03-30:logging-in-django.html</id><summary type="html">&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;This was a talk I presented at Hyderbad Python meetup - March 2013&lt;/p&gt;
+&lt;script async class="speakerdeck-embed" data-id="b33f5e2074ec0130286a22000a1f8aa6" data-ratio="1.33333333333333" src="http://speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;&lt;/div&gt;
+</summary><category term="django"></category><category term="talk"></category></entry><entry><title>Developing Ubuntu Apps for fun and profit</title><link href="http://tuxcanfly.github.com/pycon-india-2012-talk.html" rel="alternate"></link><updated>2013-02-23T17:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2013-02-23:pycon-india-2012-talk.html</id><summary type="html">&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;This was a talk I presented at PyCon India 2012.&lt;/p&gt;
+&lt;iframe src="https://docs.google.com/presentation/d/1FCkHcZ8cim0oy58sOcG7xeyL4HKmP4v8xR4_wdnLYxM/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"&gt;&lt;/iframe&gt;&lt;/div&gt;
+</summary><category term="ubuntu"></category><category term="talk"></category></entry></feed>
