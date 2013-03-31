@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Does not compute</title><link href="http://tuxcanfly.github.com/" rel="alternate"></link><link href="https://tuxcanfly.github.com/feeds/FOSS.atom.xml" rel="self"></link><id>http://tuxcanfly.github.com/</id><updated>2013-03-31T21:00:00+05:30</updated><entry><title>Month of FOSS contributions - Mar '13</title><link href="http://tuxcanfly.github.com/month-of-foss-contributions-mar-13.html" rel="alternate"></link><updated>2013-03-31T21:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2013-03-31:month-of-foss-contributions-mar-13.html</id><summary type="html">&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;Stuff that I contributed to Open Source in Mar '13.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="django"&gt;
+&lt;h2&gt;Django&lt;/h2&gt;
+&lt;p&gt;I debugged an issue in django &lt;cite&gt;ModelChoiceField&lt;/cite&gt; and &lt;cite&gt;ModelMultipleChoiceField&lt;/cite&gt;
+which was causing model forms to be validated even though they weren't changed.
+The problem was that &lt;cite&gt;has_changed&lt;/cite&gt; was comparing an &lt;cite&gt;object_id&lt;/cite&gt; or list of
+&lt;cite&gt;ids&lt;/cite&gt; with an instance or queryset.&lt;/p&gt;
+&lt;p&gt;Even though the fix was a part of another branch, the tests I had proposed were
+included in the commit.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/django/django/commit/3318595c0bfeda9f6bae8aa11dda68647ae55fde"&gt;3318595c&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/django/django/pull/660"&gt;Pull request&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="vimux-django-tests"&gt;
+&lt;h2&gt;Vimux-django-tests&lt;/h2&gt;
+&lt;p&gt;This is a pet project that I started to make it easier to run individual django
+tests from within vim.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/tuxcanfly/vimux-django-tests"&gt;Vimux-django-tests&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="foss"></category><category term="contributions"></category></entry><entry><title>Month of FOSS contributions - Feb '13</title><link href="http://tuxcanfly.github.com/month-of-foss-contributions-feb-13.html" rel="alternate"></link><updated>2013-02-28T21:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.github.com,2013-02-28:month-of-foss-contributions-feb-13.html</id><summary type="html">&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;I'm documenting my contributions to FOSS every month from now for two purposes:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;As a log of my activity&lt;/li&gt;
+&lt;li&gt;To serve as a motivation for further participation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Psst, also for boasting about it, wink wink.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="whoosh"&gt;
+&lt;h2&gt;Whoosh&lt;/h2&gt;
+&lt;p&gt;While trying to work on django-haystack, I found a bug reported by Zed Shaw
+where a search query would crash the search page provided by haystack.&lt;/p&gt;
+&lt;p&gt;Upon digging into haystack and whoosh, I found that there's a edge case in the
+whoosh query parser where passing a query containg a stop word and negative
+filter can raise an error (e.g: the query string &lt;cite&gt;?q=-1&lt;/cite&gt;). I figured out a simple
+fix and submitted a pull request which was promptly accepted.&lt;/p&gt;
+&lt;p&gt;I was hoping to find something to contribute to haystack and help with the
+maintanance, but looks like it will have to wait untill I get some more time.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://bitbucket.org/mchaput/whoosh/commits/362fc2999c8cabc51370f433de7402fafd536ec6"&gt;362fc299&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="django-browserid"&gt;
+&lt;h2&gt;django-browserid&lt;/h2&gt;
+&lt;p&gt;I have always been a fan of mozilla and django-browserid looks like the perfect
+match for me to contribute towards. I tried out the library by going through
+the docs and found it to be a breeze. I was able to improve the docs a bit and
+triage a few bugs.&lt;/p&gt;
+&lt;p&gt;I have to say people working on this project are very helpful and
+understanding. Looking forward to spending more time on this project in the
+future.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/mozilla/django-browserid/commit/f5fc0f124fda1fded862863ef56cab11f23c308d"&gt;f5fc0f12&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/mozilla/django-browserid/commit/b9a17a4088211908de2a17a57668a646555f068a"&gt;b9a17a408&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I really enjoyed working on these projects, and I'm looking forward to speding more time to get more
+comfortable with them and contributing even more. Here's to bigger, better things!&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="foss"></category><category term="contributions"></category></entry></feed>
