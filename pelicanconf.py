@@ -27,10 +27,11 @@ SOCIAL = (('Github', 'http://github.com/tuxcanfly'),
 
 DEFAULT_PAGINATION = 10
 THEME = 'syte'
+PLUGIN_PATH = '../pelican-plugins'
 PLUGINS = [
-    'pelican.plugins.assets',
-    'pelican.plugins.gravatar',
-    'pelican.plugins.related_posts'
+    'assets',
+    'gravatar',
+    'related_posts'
 ]
 
 DISPLAY_PAGES_ON_MENU = True
