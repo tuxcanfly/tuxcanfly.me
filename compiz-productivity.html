@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Personal website and blog of Jakh Daven aka tuxcanfly." />
+  <meta name="keywords" content="python, django, tuxcanfly, jakh daven" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boost your productivity with compiz</title>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="/theme/css/styles.min.css?53fde3f0">
+
+  <link rel="shortcut icon" type="image/png" href="http://www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5.png" />
+      <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+  </head>
+<body>
+<header class="main-header">
+  <a href="https://github.com/tuxcanfly">
+<img style="position: absolute; top: 0; left: 128px; border: 0; height: 119px;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+  <hgroup>
+    <div>
+      <img src="http://www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5.png" style="margin-left: 34px; margin-top: 30px;">
+    </div>
+    <h1><a href=http://tuxcanfly.github.com id="home-link">Does not compute</a></h1>
+    <h2>Self-conscious life form, currently inhabiting the planet Earth. Writes code for a living.</h2>
+  </hgroup>
+  <nav>
+    <ul class="main-nav">
+      
+                    
+            <li><a href="http://github.com/tuxcanfly" id="Github-link">Github</a></li>
+            <li><a href="http://twitter.com/#!/tuxcanfly" id="Twitter-link">Twitter</a></li>
+            <li><a href="http://bitbucket.org/tuxcanfly" id="Bitbucket-link">Bitbucket</a></li>
+            <li><a href="http://plus.google.com/u/0/105411960072575411330/about" id="Google-link">Google</a></li>
+      
+      <li><a href="http://tuxcanfly.github.com/feeds/all.xml" id="feed-link">Feed</a></li>
+      <li><a href="mailto:tuxcanfly@gmail.com?subject=Hello" id="contact-link">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="http://pelican.notmyidea.org" class="fork-me">Powered by Pelican.</a>
+
+</header>
+<section class="main-section blog-section" id="blog-posts">
+	<h3 class="date">December 15, 2012</h3>
+  <article>
+	<hgroup>
+	
+	<h2><a href="http://tuxcanfly.github.com/compiz-productivity.html">Boost your productivity with compiz</a></h2>
+    
+	</hgroup>
+	<div class="section" id="summary">
+<h2>Summary</h2>
+<p>Compiz provides powerful window control features which can be used to improve
+daily work flow.</p>
+</div>
+<div class="section" id="installation">
+<h2>Installation</h2>
+<p>To start off, you'll need to install the following additional packages:</p>
+<div class="highlight"><pre>compizconfig-settings-manager compiz-plugins-main compiz-plugins-extra
+</pre></div>
+<div class="warning">
+<p class="first admonition-title">Warning</p>
+<p>Before you proceed, you should know that fiddling with compiz is risky and
+will probably cause your desktop session to freeze if something goes wrong.</p>
+<p class="last"><a class="reference external" href="http://www.ubuntugeek.com/enable-ctrl-alt-backspace-in-ubuntukubuntu-10-04lucid-lynx.html">Enable XServer Zap</a> keyboard shortcut and be prepared to use it.</p>
+</div>
+</div>
+<div class="section" id="preferences">
+<h2>Preferences</h2>
+<p>Checkout the Preferences options. I prefer the Flat-file configuration backend
+as I want to keep all my compiz configuration in a single file and version
+control it.</p>
+<p>Make sure you create a backup of your current config using the Export option
+before you start.</p>
+<p>Here's my <a class="reference external" href="https://gist.github.com/4296914">compiz config</a> if you want to import it.</p>
+</div>
+<div class="section" id="commands">
+<h2>Commands</h2>
+<div class="figure align-center">
+<a class="reference external image-reference" href="/images/commands.gif"><img alt="Showcasing compiz commands" src="/images/commands.gif" /></a>
+<p class="caption">I've mapped &lt;Super&gt;Return to my terminal (urxvt) and
+&lt;Super&gt;e to my editor (gvim)</p>
+</div>
+<p>The Commands plugin gives you a simple way to assign keyboard shortcuts to any
+command.</p>
+<p>Figure out your most used commands/apps and assign shortcuts to them. No more
+wading your way through menus and searching for apps. Some commands I use:</p>
+<div class="highlight"><pre>urxvt -&gt; &lt;Super&gt;Return
+gvim -&gt; &lt;Super&gt;e
+chromium-browser --incognito -&gt; &lt;Shift&gt;&lt;Super&gt;w
+nautilus -&gt; &lt;Super&gt;t
+gnome-screensaver-command --lock -&gt; &lt;Super&gt;b
+</pre></div>
+</div>
+<div class="section" id="general">
+<h2>General</h2>
+<a class="reference external image-reference" href="/images/general.gif"><img alt="Showcasing general key bindings" class="align-center" src="/images/general.gif" /></a>
+<p>I find the key-bindings in this section very useful. For example:</p>
+<div class="highlight"><pre>Close Window -&gt; &lt;Super&gt;q
+Toggle Window Maximizes -&gt; &lt;Super&gt;m
+</pre></div>
+<p>Combined with Commands plugin above, this configuration allows you to spawn,
+close and maximize/restore your windows all with key-bindings!</p>
+</div>
+<div class="section" id="extra-wm-actions">
+<h2>Extra WM Actions</h2>
+<a class="reference external image-reference" href="/images/extra.gif"><img alt="Showcasing extra wm actions" class="align-center" src="/images/extra.gif" /></a>
+<p>Ever wanted to turn a window fullscreen but couldn't because the app doesn't
+allow it?  Want to keep a window on top?</p>
+<p>Extra WM actions provides key-bindings for these features. The mapping I use:</p>
+<div class="highlight"><pre>Toggle Fullscreen -&gt; &lt;Supfer&gt;f
+</pre></div>
+</div>
+<div class="section" id="grid">
+<h2>Grid</h2>
+<a class="reference external image-reference" href="/images/grid.gif"><img alt="Showcasing grid plugin" class="align-center" src="/images/grid.gif" /></a>
+<p>Grid provides a window tiling feature with intuitive key-bindings. It's great
+for people coming from a tiling window manager (like me).</p>
+</div>
+<div class="section" id="desktop-wall-cube">
+<h2>Desktop Wall/Cube</h2>
+<a class="reference external image-reference" href="/images/desktops.gif"><img alt="Showcasing desktop wall" class="align-center" src="/images/desktops.gif" /></a>
+<p>Both plugins provide an intuitive UI for multiple workspaces and are very
+helpful for multitasking.</p>
+<p>I map the Move Left/Right to keys on the home row:</p>
+<div class="highlight"><pre>Move Left -&gt; &lt;Shift&gt;&lt;Control&gt;&lt;Primary&gt;&lt;Super&gt;j
+Move Right -&gt; &lt;Shift&gt;&lt;Control&gt;&lt;Primary&gt;&lt;Super&gt;k
+</pre></div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>I find compiz's features and customizability very useful and I hope you do too.</p>
+<p>Let me know if you know any useful tips in comments.</p>
+</div>
+
+
+	<br/>	
+	<footer>
+		<h4>TAGS</h4>
+	<ul class="tags">
+		<li><a href="http://tuxcanfly.github.com/tag/compiz.html" class="tag">compiz</a></li>
+		</ul>
+	
+	<br/>
+		<div class="comments">
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+					var disqus_identifier = "compiz-productivity.html";
+					(function() {
+					 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					 dsq.src = 'http://tuxcanfly-github.disqus.com/embed.js';
+					 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					 })();
+			 </script>
+	 </div>
+	 	</footer>
+	</article>
+</section>
+
+
+<div class="mobile-nav">
+  <span class="nav-btn" id="mobile-nav-btn">
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+  </span>
+  <h3>
+    <a href="http://tuxcanfly.github.com/" id="mobile-title">http://tuxcanfly.github.com</a>
+  </h3>
+</div>
+
+<script src="/theme/gen/packed.js?ae72d16b"></script>
+
+<script>
+    // Function to get the Maximam value in Array
+    Array.max = function( array ) {
+        return Math.max.apply( Math, array );
+    };
+
+    var heights = [];
+    heights.push($('.main-header').height());
+    heights.push($('.main-section').height());
+    heights.push($(window).height());
+
+    var max_height = Array.max(heights);
+    $('.main-header').height(max_height+80);
+
+    $('#mobile-title').text(window.location.hostname);
+
+    var github_username = 'tuxcanfly';
+
+    var google_username = '105411960072575411330';
+    var google_accesskey = 'AIzaSyDB2JaMR42m43sJ06IYZV0s6H1JI4WyZT0';
+
+    var twitter_username = 'tuxcanfly';
+
+    var bitbucket_username = 'tuxcanfly';
+
+</script>
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37076247-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+</body>
