@@ -81,5 +81,6 @@ github: publish
 	git merge -s ours origin/master --no-edit
 	git push origin master
 	git checkout blog
+	git push
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
