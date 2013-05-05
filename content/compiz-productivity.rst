@@ -52,10 +52,10 @@ Here's my `compiz config`_ if you want to import it.
 Commands
 =========
 
-.. figure:: /images/commands.gif
+.. figure:: |filename|/images/commands.gif
    :align: center
    :alt: Showcasing compiz commands
-   :target: /images/commands.gif
+   :target: |filename|/images/commands.gif
 
    I've mapped <Super>Return to my terminal (urxvt) and
    <Super>e to my editor (gvim)
@@ -78,10 +78,10 @@ wading your way through menus and searching for apps. Some commands I use:
 General
 =======
 
-.. image:: /images/general.gif
+.. image:: |filename|/images/general.gif
    :align: center
    :alt: Showcasing general key bindings
-   :target: /images/general.gif
+   :target: |filename|/images/general.gif
 
 
 I find the key-bindings in this section very useful. For example:
@@ -98,10 +98,10 @@ close and maximize/restore your windows all with key-bindings!
 Extra WM Actions
 =================
 
-.. image:: /images/extra.gif
+.. image:: |filename|/images/extra.gif
    :align: center
    :alt: Showcasing extra wm actions
-   :target: /images/extra.gif
+   :target: |filename|/images/extra.gif
 
 Ever wanted to turn a window fullscreen but couldn't because the app doesn't
 allow it?  Want to keep a window on top?
@@ -117,10 +117,10 @@ Grid
 =====
 
 
-.. image:: /images/grid.gif
+.. image:: |filename|/images/grid.gif
    :align: center
    :alt: Showcasing grid plugin
-   :target: /images/grid.gif
+   :target: |filename|/images/grid.gif
 
 Grid provides a window tiling feature with intuitive key-bindings. It's great
 for people coming from a tiling window manager (like me).
@@ -129,10 +129,10 @@ for people coming from a tiling window manager (like me).
 Desktop Wall/Cube
 ==================
 
-.. image:: /images/desktops.gif
+.. image:: |filename|/images/desktops.gif
    :align: center
    :alt: Showcasing desktop wall
-   :target: /images/desktops.gif
+   :target: |filename|/images/desktops.gif
 
 Both plugins provide an intuitive UI for multiple workspaces and are very
 helpful for multitasking.

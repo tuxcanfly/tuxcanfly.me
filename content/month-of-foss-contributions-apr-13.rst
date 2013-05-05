@@ -37,9 +37,9 @@ which I have reviewed and merged.
 Overall, it’s been a really good month for django-merchant, here's to hoping
 this continues.
 
-.. figure:: /static/images/merchant-progress.png
+.. figure:: |filename|/images/merchant-progress.png
    :align: center
    :alt: Merchant Progress
-   :target: /static/images/merchant-progress.png
+   :target: |filename|/images/merchant-progress.png
 
    GitHub pulse for django-merchant
