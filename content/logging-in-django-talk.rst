@@ -15,4 +15,6 @@ This was a talk I presented at Hyderbad Python meetup - March 2013
 
 .. raw:: html
 
-    <script async class="speakerdeck-embed" data-id="b33f5e2074ec0130286a22000a1f8aa6" data-ratio="1.33333333333333" src="http://speakerdeck.com/assets/embed.js"></script>
+    <div style="height:60%; width:60%">
+        <script async class="speakerdeck-embed" data-id="b33f5e2074ec0130286a22000a1f8aa6" data-ratio="1.33333333333333" src="http://speakerdeck.com/assets/embed.js"></script>
+    </div>
