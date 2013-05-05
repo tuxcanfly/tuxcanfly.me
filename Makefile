@@ -77,7 +77,7 @@ github: publish
 	find output -mindepth 1 -maxdepth 1 -exec mv -t. -- {} +
 	rmdir output
 	git add .
-	git commit -m "new post"
+	git commit -m "published a new post"
 	git merge -s ours origin/master --no-edit
 	git push origin master
 	git checkout blog
