@@ -45,6 +45,8 @@ AUTHOR_EMAIL = 'tuxcanfly@gmail.com'
 DISQUS_SITENAME = 'tuxcanfly-github'
 GOOGLE_ANALYTICS = 'UA-37076247-1'
 
+FILES_TO_COPY = (('CNAME', 'CNAME'),)
+
 # Syte theme specific settings
 ##############################
 
