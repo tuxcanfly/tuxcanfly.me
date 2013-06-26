@@ -25,9 +25,9 @@ newfound cockroach-like body. Doesn't make sense? Well.. too bad for you.
 
 Now that Mr. Gregory, the cockroach, is incapable of supporting the family,
 it's up to his parents and his sister to provide for themselves and also take
-care of him. At the end of the story, the sister is shown to have matured
-and the parents also seem to have been regained their health. I guess the
-question is - what was the metamorphosis and what changed?
+care of him. At the end of the story, the sister is shown to have matured and
+the parents also seem to have regained their health. I guess the question is -
+what was the metamorphosis and what changed?
 
 Warning! - The answer might trigger an existential crisis.
 
