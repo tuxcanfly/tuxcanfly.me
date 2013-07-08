@@ -1,8 +1,8 @@
-The Metamorphosis - Frank Kafka
-################################
+The Metamorphosis - Franz Kafka
+###############################
 
 :date: 2013-06-26 22:00
-:tags: kafa, books
+:tags: kafka, books
 :category: book-review
 :slug: the-metamorphosis
 :author: Javed Khan
@@ -11,7 +11,7 @@ The Metamorphosis - Frank Kafka
 Review:
 =======
 
-The Metamorphosis (Die Verwandlung) is a novella by Frank Kafka which tells a
+The Metamorphosis (Die Verwandlung) is a novella by Franz Kafka which tells a
 bizarre story with a rather mundane conclusion. It's surreal premise and
 claustrophobic environment keeps the reader guessing throughout.
 
