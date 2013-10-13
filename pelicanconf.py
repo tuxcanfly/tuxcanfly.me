@@ -3,7 +3,7 @@
 
 AUTHOR = u'tuxcanfly'
 SITENAME = u'Does not compute'
-SITEURL = 'https://tuxcanfly.github.com'
+SITEURL = 'https://tuxcanfly.me'
 
 DEFAULT_LANG = 'en'
 LOCALE = ('en_IN')
