@@ -5,7 +5,7 @@ AUTHOR = u'tuxcanfly'
 SITENAME = u'Does not compute'
 
 DEFAULT_LANG = 'en'
-LOCALE = ('en')
+LOCALE = ('en_IN',)
 
 TIMEZONE = 'Asia/Kolkata'
 
@@ -47,7 +47,7 @@ LINKEDIN_URL = 'http://in.linkedin.com/tuxcanfly'
 
 DEFAULT_CATEGORY = 'Uncategorized'
 DATE_FORMAT = {
-    'en': '%A, %d %B %Y',
+    'en_IN': '%A, %d %B %Y',
 }
 DEFAULT_DATE_FORMAT = '%A, %d %B %Y'
 PDF_GENERATOR = False
