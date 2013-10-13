@@ -27,8 +27,8 @@ Sabriel is the first book of the Old Kingdom aka the Abhorsen trilogy.  It's a
 story about the coming-of-age of a young girl named Sabriel (surprise!).  The
 plot is set somewhere in England in a place where the normal and the magical
 worlds are divided by the Wall. Sabriel and other members of her family are the
-Abhorsens or necromancers who are tasked with the keeping the dead actually
-dead and not let them wander out into our living world. Death is the main theme
+Abhorsens or necromancers who are tasked with keeping the dead actually
+dead and not letting them wander out into our living world. Death is the main theme
 of the book and is described as another universe where dead souls float away in
 a river and cross the various gates. Sabriel's adventure begins when she finds
 out that her father has been trapped in one of these gates by the evil
