@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,700' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Serif">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title> Month of FOSS contributions - Feb '13 | Does not compute </title>
+
+    <link rel="stylesheet" href="http://tuxcanfly.me/theme/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="http://tuxcanfly.me/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="http://tuxcanfly.me/theme/css/font-awesome.css" type="text/css"/>
+    <link rel="shortcut icon" type="image/png" href="http://www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5.png" />
+  </head>
+  <body>
+    <div class=container>
+                    
+      <div class=navigation>
+        <ul>
+                      <li><a href="http://tuxcanfly.me/index.html">Blog</a> </li>
+                      <li><a href="http://tuxcanfly.me/archives.html">Archive</a> </li>
+                      <li><a href="http://tuxcanfly.me/tags.html">Tags</a> </li>
+                      <li><a href="http://tuxcanfly.me/tag/project.html">Projects</a> </li>
+                      <li><a href="http://tuxcanfly.me/tag/talk.html">Talks</a> </li>
+                      <li><a href="http://tuxcanfly.me/pages/about-me.html">About</a> </li>
+                  </ul>
+      </div>
+      <div class=separator></div>                
+        <div class=body>
+            <h1 class="title"> Month of FOSS contributions - Feb '13</h1>
+    <p class=date> Thursday, 28 February 2013 </p>
+    <div class="section" id="about">
+<h2>About</h2>
+<p>I'm documenting my contributions to FOSS every month from now for two purposes:</p>
+<ul class="simple">
+<li>As a log of my activity</li>
+<li>To serve as a motivation for further participation</li>
+</ul>
+<p>Psst, also for boasting about it, wink wink.</p>
+</div>
+<div class="section" id="whoosh">
+<h2>Whoosh</h2>
+<p>While trying to work on django-haystack, I found a bug reported by Zed Shaw
+where a search query would crash the search page provided by haystack.</p>
+<p>Upon digging into haystack and whoosh, I found that there's a edge case in the
+whoosh query parser where passing a query containg a stop word and negative
+filter can raise an error (e.g: the query string <cite>?q=-1</cite>). I figured out a simple
+fix and submitted a pull request which was promptly accepted.</p>
+<p>I was hoping to find something to contribute to haystack and help with the
+maintanance, but looks like it will have to wait untill I get some more time.</p>
+<p><a class="reference external" href="https://bitbucket.org/mchaput/whoosh/commits/362fc2999c8cabc51370f433de7402fafd536ec6">362fc299</a></p>
+</div>
+<div class="section" id="django-browserid">
+<h2>django-browserid</h2>
+<p>I have always been a fan of mozilla and django-browserid looks like the perfect
+match for me to contribute towards. I tried out the library by going through
+the docs and found it to be a breeze. I was able to improve the docs a bit and
+triage a few bugs.</p>
+<p>I have to say people working on this project are very helpful and
+understanding. Looking forward to spending more time on this project in the
+future.</p>
+<p><a class="reference external" href="https://github.com/mozilla/django-browserid/commit/f5fc0f124fda1fded862863ef56cab11f23c308d">f5fc0f12</a></p>
+<p><a class="reference external" href="https://github.com/mozilla/django-browserid/commit/b9a17a4088211908de2a17a57668a646555f068a">b9a17a408</a></p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>I really enjoyed working on these projects, and I'm looking forward to speding more time to get more
+comfortable with them and contributing even more. Here's to bigger, better things!</p>
+</div>
+
+    
+            <p class=tags>This entry was tagged as
+            <a href="http://tuxcanfly.me/tag/foss.html">foss</a>
+            <a href="http://tuxcanfly.me/tag/contributions.html">contributions</a>
+          </p>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuxcanfly-github'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>            </div>
+        
+                    <div class=footer>
+  <p>&copy; Copyright <script language="JavaScript">var date = new Date(); document.write(date.getFullYear());</script> by tuxcanfly</p>
+  <p> Powered by <a href="http://pypi.python.org/pypi/pelican/" target="_blank">Pelican</a>.  
+    <a href="https://github.com/fjavieralba/flasky">Theme</a>  by <a href="http://fjavieralba.com">fjavieralba</a>
+  </p> 
+  <p>
+    <div class=social style="font-size: 27px;">
+      <ul>
+        <script language="JavaScript">
+          u = 'tuxcanfly';
+          s = 'gmail.com';
+          document.write('<a href=\"mailto:' + u + '@' + s + '\" target=\"_blank\">');
+        </script>
+            <li><i class="icon-envelope icon-large"></i> </li>
+        </a>
+        <a href="http://twitter.com/" target="_blank"> <li> <i class="icon-twitter-sign icon-large"> </li></i> </a>
+        <a href="http://in.linkedin.com/tuxcanfly"><li><i class="icon-linkedin-sign icon-large" ></i></li></a>
+        <a href="https://github.com/tuxcanfly" target="_blank"> <li> <i class="icon-github-sign icon-large"></i> </li> </a>
+        <a href="http://tuxcanfly.me/feeds/all.rss.xml" rel="alternate" title="Recent Blog Posts"><li> <i class="icon-rss icon-large"></i> </li></a>
+      </ul>
+    </div>
+  </p>
+</div>            </div>
+        <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37076247-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+      </body>
+</html>
