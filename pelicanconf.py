@@ -44,6 +44,7 @@ WEBASSETS = True
 
 GITHUB_URL = 'https://github.com/tuxcanfly'
 LINKEDIN_URL = 'http://in.linkedin.com/tuxcanfly'
+TWITTER_USERNAME = 'tuxcanfly'
 
 DEFAULT_CATEGORY = 'Uncategorized'
 DATE_FORMAT = {
