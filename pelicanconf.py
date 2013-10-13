@@ -3,7 +3,6 @@
 
 AUTHOR = u'tuxcanfly'
 SITENAME = u'Does not compute'
-SITEURL = 'https://tuxcanfly.me'
 
 DEFAULT_LANG = 'en'
 LOCALE = ('en_IN')
@@ -37,7 +36,6 @@ PLUGINS = [
 DISPLAY_PAGES_ON_MENU = True
 REVERSE_ARCHIVE_ORDER = True
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
-FEED_DOMAIN = SITEURL
 FEED_RSS = 'feeds/all.xml'
 GRAVATAR = 'http://www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5.png'
 AUTHOR_EMAIL = 'tuxcanfly@gmail.com'
