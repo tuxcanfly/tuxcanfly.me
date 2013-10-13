@@ -38,8 +38,8 @@ The narrative is gripping and keeps your attention, but the plot is unoriginal
 and a bit too melodramatic. Hardcore fantasy fans might also be disappointed by
 the lack of details and history of the magical elements.
 
-Somwhat off topic, but the cover-art alone is worth buying this book! The calm,
-yet determined expression of Sabriel, with her dark hair melting into the dark
-realm of Death, it quite perfectly captures the essence of the story.
+Somewhat off topic, but the cover-art alone is worth buying this book! The
+calm, yet determined expression of Sabriel, with her dark hair melting into the
+dark realm of Death, it quite perfectly captures the essence of the story.
 
 3.5/5 - Overall a good read with some memorable if stereotyped characters.
