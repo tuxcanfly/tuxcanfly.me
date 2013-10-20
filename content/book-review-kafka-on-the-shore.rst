@@ -42,7 +42,7 @@ man called Oshima and his(her?) loner boss called Miss Saeki. Meanwhile back in
 Nakano (where Kafka runs away from), we're introduced to a mentally challenged
 old man named Nakata who is gifted with the ability to talk to cats. The rest
 of the story is all about how Kafka and Nakata's paths slowly but eventually
-cross. A curse has been placed on Kafka by his father because of her mother's
+cross. A curse has been placed on Kafka by his father because of his mother's
 sudden departure. Much as Kafka tries to avoid this curse, he seems to stumble
 right in the middle of it.
 
