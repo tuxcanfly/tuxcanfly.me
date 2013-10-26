@@ -41,15 +41,15 @@ it.
 The story starts off with a rebellion by all animals united against a common
 enemy: Mr Jones, the farm owner. Two pigs - Snowball and Napolean hatch a plan
 and together with the support of horses, dogs, geese and all animals, are
-successful in driving the farmer out. Rejoicing the revolution they set out to
-re-create their society and write their own version of the sacred commandments.
-The pigs being the most intelligent animals and the only literate ones, are the
-authors of most of these laws. They soon realize their privileged status and
-thus begin to hijack the revolution. Snowball wants to create a windmill but is
-driven out because Napolean has other plans and is able to convince the animals
-the Snowball is actually a spy. Now Napolean takes over and the rest of the
-story details how greed and corruption turn him into the very thing that all
-animals had revolted against - human.
+successful in driving the farmer out. Rejoicing at the revolution, they set out
+to re-create their society and write their own version of the sacred
+commandments. The pigs being the most intelligent animals and the only
+literate ones, are the authors of most of these laws. They soon realize their
+privileged status and thus begin to hijack the revolution. Snowball wants to
+create a windmill but is driven out because Napolean has other plans and is
+able to convince the animals the Snowball is actually a spy. Now Napolean takes
+over and the rest of the story details how greed and corruption turn him into
+the very thing that all animals had revolted against - human.
 
 The metaphorical relation between different animals and different sections of
 the public is very beautiful: pigs - intelligentsia, dogs - loyalists, sheep -
