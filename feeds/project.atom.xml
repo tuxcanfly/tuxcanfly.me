@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Does not compute</title><link href="http://tuxcanfly.me/" rel="alternate"></link><link href="http://tuxcanfly.me/feeds/project.atom.xml" rel="self"></link><id>http://tuxcanfly.me/</id><updated>2013-01-14T17:00:00+05:30</updated><entry><title>Announcing Editorize beta</title><link href="http://tuxcanfly.me/announcing-editorize-beta.html" rel="alternate"></link><updated>2013-01-14T17:00:00+05:30</updated><author><name>Javed Khan</name></author><id>tag:tuxcanfly.me,2013-01-14:announcing-editorize-beta.html</id><summary type="html">&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Editorize summons up your favorite text editor with a global shortcut so that
+you can edit your text the way you want it. Close the file and the text
+automagically gets pasted in to the text field you were editing.&lt;/p&gt;
+&lt;p&gt;Editorize is in beta and needs some bugfixes/cleanup before it can be
+considered stable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="installation"&gt;
+&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The easiest way to install editorize is by &lt;a class="reference external" href="https://launchpad.net/~tuxcanfly/+archive/editorize"&gt;using the ppa&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-add-repository ppa:tuxcanfly/editorize
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;After that, updated and install the &lt;cite&gt;editorize&lt;/cite&gt; package:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-get update
+sudo apt-get install editorize
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Source packages are available from the &lt;a class="reference external" href="https://launchpad.net/editorize"&gt;launchpad project page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now you should be able to launch the app from the start menu / dash or using
+the command &lt;cite&gt;editorize&lt;/cite&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="usage"&gt;
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;p&gt;The default global keyboard shortcut for launching your default text editor is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;lt;Ctrl&amp;gt;&amp;lt;Alt&amp;gt;i
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Both the shortcut and text editor can be customized from the &lt;cite&gt;Preferences&lt;/cite&gt; menu
+of the App Indicator.&lt;/p&gt;
+&lt;p&gt;Just go to a text input field on any app and use the above keyboard shortcut
+and your text editor should pop open. Now enter your text, save and close the
+editor. The input text should get copied to the app.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="help-bugs"&gt;
+&lt;h2&gt;Help/Bugs:&lt;/h2&gt;
+&lt;p&gt;Please report &lt;a class="reference external" href="https://bugs.launchpad.net/editorize"&gt;bugs on launchpad&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="ubuntu"></category><category term="editorize"></category><category term="project"></category></entry></feed>
