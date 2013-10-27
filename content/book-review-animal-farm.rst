@@ -39,15 +39,15 @@ yourself a favor and read this book. It won't take more than a day to finish
 it.
 
 The story starts off with a rebellion by all animals united against a common
-enemy: Mr Jones, the farm owner. Two pigs - Snowball and Napolean hatch a plan
+enemy: Mr Jones, the farm owner. Two pigs - Snowball and Napoleon hatch a plan
 and together with the support of horses, dogs, geese and all animals, are
 successful in driving the farmer out. Rejoicing at the revolution, they set out
 to re-create their society and write their own version of the sacred
 commandments. The pigs being the most intelligent animals and the only
 literate ones, are the authors of most of these laws. They soon realize their
 privileged status and thus begin to hijack the revolution. Snowball wants to
-create a windmill but is driven out because Napolean has other plans and is
-able to convince the animals the Snowball is actually a spy. Now Napolean takes
+create a windmill but is driven out because Napoleon has other plans and is
+able to convince the animals the Snowball is actually a spy. Now Napoleon takes
 over and the rest of the story details how greed and corruption turn him into
 the very thing that all animals had revolted against - human.
 
@@ -60,9 +60,10 @@ may appear today. Orwell also points out the distinct features of
 Authoritarianism as it gradually begins to form - guilt-based witch-hunts, no
 fair trials, brutal punishments, lies and propaganda, fear-mongering (Jones
 will come back!, Snowball destroyed the windmill!), silently re-writing laws,
-mind-numbing praises (Dear Leader, Comrade Napolean), chants, songs, slogans,
-rituals; and suppression of thought. Anti-authoritarian also means
-anti-religious since God is the ultimate authority and the parallels between
-the farm under Napolean and a Church or Mosque are as plain as daylight.
+mind-numbing praises (Dear Leader, Comrade Napoleon), chants (Four legs good,
+two legs bad!), songs, slogans, rituals; and suppression of thought.
+Anti-authoritarian also means anti-religious since God is the ultimate
+authority and the parallels between the farm under Napoleon and a Church or
+Mosque are as plain as daylight.
 
 5/5 - Small and delightfully thought-provoking. Must-read.
