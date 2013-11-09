@@ -11,10 +11,10 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=localhost
-SSH_PORT=22
-SSH_USER=root
-SSH_TARGET_DIR=/var/www
+SSH_HOST=tuxcanfly.me
+SSH_PORT=774
+SSH_USER=tuxcanfly
+SSH_TARGET_DIR=/usr/share/nginx/www
 
 DROPBOX_DIR=~/Dropbox/Public/
 

@@ -17,14 +17,7 @@ SECTIONS = [('Blog', 'index.html'),
         ('About', 'pages/about-me.html')]
 
 DEFAULT_PAGINATION = 10
-THEME = 'flasky'
-PLUGIN_PATH = '../pelican-plugins'
-PLUGINS = [
-    'assets',
-    'gravatar',
-    'related_posts'
-]
-
+THEME = 'pelican-cait'
 DISPLAY_PAGES_ON_MENU = True
 REVERSE_ARCHIVE_ORDER = True
 FEED_RSS = 'feeds/all.xml'
@@ -63,3 +56,4 @@ MAIL_USERNAME = 'tuxcanfly'
 MAIL_HOST = 'gmail.com'
 
 STATIC_PATHS = ["images"]
+RELATIVE_URLS = True
