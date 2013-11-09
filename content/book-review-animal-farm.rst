@@ -18,11 +18,9 @@ Animal Farm - George Orwell
 Review:
 =======
 
-Quote::
+.. epigraph::
 
     All animals are equal, but some animals are more equal than others.
-
-Quote::
 
     If you want a vision of the future, imagine a boot stamping on a human face
     - forever.

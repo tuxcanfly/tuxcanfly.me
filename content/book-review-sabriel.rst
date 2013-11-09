@@ -18,10 +18,11 @@ Sabriel - Garth Nix
 Review:
 =======
 
-Quote::
+.. epigraph::
 
-    "Does the walker choose the path, or the path the walker?”
-    ― Garth Nix, Sabriel
+    Does the walker choose the path, or the path the walker?
+
+    -- Garth Nix, Sabriel
 
 Sabriel is the first book of the Old Kingdom aka the Abhorsen trilogy.  It's a
 story about the coming-of-age of a young girl named Sabriel (surprise!).  The

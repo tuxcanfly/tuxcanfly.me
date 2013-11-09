@@ -18,13 +18,13 @@ Kafka on the shore - Haruki Murakami
 Review:
 =======
 
-Quote::
+.. epigraph::
 
     Yeah, but if you look at it like that we're all pretty much empty, don't
     you think?  You eat, take a dump, do your crummy job for your lousy pay,
     and get laid occasionally, if you're lucky. What else is there?
 
-    ― Haruki Murakami, Kafka on the shore
+    -- Haruki Murakami, Kafka on the shore
 
 This is my first Murakami book and I didn't know what to expect. Boy, was I in
 for a treat. Kafka's bizzare universe seems to have been waiting for someone to

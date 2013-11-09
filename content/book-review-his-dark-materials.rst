@@ -20,7 +20,7 @@ Review:
    “Paradise Lost“ by Gustave Doré, 1866. License: Public Domain
 
 
-Quote::
+.. epigraph::
 
     We have to be all those difficult things like cheerful and kind and curious and
     patient, and we’ve got to study and think and work hard, all of us, in all our

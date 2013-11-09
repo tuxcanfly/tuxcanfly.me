@@ -1,5 +1,5 @@
-About me:
-#########
+About me
+########
 
 :date: 2013-10-13 16:00
 :tags: self
