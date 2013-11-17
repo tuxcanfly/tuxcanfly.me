@@ -27,8 +27,6 @@ AUTHOR_EMAIL = 'tuxcanfly@gmail.com'
 DISQUS_SITENAME = 'tuxcanfly-github'
 GOOGLE_ANALYTICS = 'UA-37076247-1'
 
-FILES_TO_COPY = (('CNAME', 'CNAME'),)
-
 # HTML related settings
 ABOUT = u'Self-conscious life form, currently inhabiting the planet Earth. Writes code for a living.'
 SITE_DESCRIPTION = u'Personal website and blog of Jakh Daven aka tuxcanfly.'
@@ -55,5 +53,18 @@ GOOGLE_ANALYTICS_ACCOUNT = 'UA-37076247-1'
 MAIL_USERNAME = 'tuxcanfly'
 MAIL_HOST = 'gmail.com'
 
-STATIC_PATHS = ["images"]
 RELATIVE_URLS = True
+
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
+SITEMAP_SAVE_AS = 'sitemap.xml'
+STATIC_PATHS = [
+    'images',
+    'extra/robots.txt',
+    'extra/favicon.ico',
+    'extra/CNAME',
+]
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/CNAME': {'path': 'CNAME'},
+}
