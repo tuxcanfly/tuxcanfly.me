@@ -54,7 +54,7 @@ serve:
 devserver:
 	$(BASEDIR)/develop_server.sh restart
 
-publish:
+publish: clean
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 ssh_upload: publish
