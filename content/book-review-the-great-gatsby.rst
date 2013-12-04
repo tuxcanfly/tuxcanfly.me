@@ -31,14 +31,14 @@ The Great Gatsby is a showcase of the upper-class American society of the early
 devastating. If you've seen the movie American Beauty (or The Great Gatsby),
 you will probably find this book very similar.
 
-Jay Gatsby is an intriguing character with a dark past and extravagant
+Jay Gatsby is an intriguing character with a dark past and an extravagant
 lifestyle. Nick, a young hard-working salesman is the narrator and Gatsby's
 neighbor. Tom and Daisy are couple who are Nick's friends and live nearby.
 Jordan Baker, a young woman, is Daisy's friend and Nick's girlfriend. The last
 couple - George and Myrtle are living in an unhappy marriage. To make matters
 worse, Tom is cheating on his wife with Myrtle and Gatsby is trying to get back
-Daisy, who rejected him when we wasn't rich. The action starts to unroll when
-one unfortunate day their paths cross.
+Daisy, who rejected him when he wasn't rich. The action starts to unroll when
+one unfortunate day all their paths cross.
 
 The tale takes a jab at the concept of "American Dream" (or any one predefined
 way of living, really). Gatsby is rumored to be a murderer as soon as people
