@@ -45,7 +45,7 @@ Glokta, a cripple, was a Prisoner-of-War who was tortured and returned to the
 union.  Now he's the Inquisitor who tortures other people, pointlessly (or
 fun, who knows?) One of his adventures with one Salem Rews, gets out of control
 as everyone from the Supervisor Kaline to the Arch Lector Sult wants to use
-Rews to sign off a confession for them. Glocker later realizes that he himself
+Rews to sign off a confession for them. Glokta later realizes that he himself
 was being played upon by the Arch Lector.
 
 Jezal dan Luthar is a young man, one would probably call him the hero of this
@@ -54,7 +54,7 @@ with his friend Major West's sister Ardi and some amusing events follow.
 
 Logen Ninefingers is a savage, brutal, primitive northman who has escaped the
 Shanka (like Orcs) and on his way to find the first of the twelve Magi, Bayaz.
-After meeting Bayaz, they reach the union where their paths cross Glocker's and
+After meeting Bayaz, they reach the union where their paths cross Glokta's and
 Luthar's.
 
 Ferro Maljinn, a fierce, ex-slave girl and the Magus Yulwei cross the Gurkish
