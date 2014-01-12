@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>./the-great-gatsby.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./before-they-are-hanged.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./last-argument-of-kings.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./the-blade-itself.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./lirael-abhorsen.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./animal-farm.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./kafka-on-the-shore.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./sabriel.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./his-dark-materials.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./the-trial.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./the-metamorphosis.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./bitcoin-for-developers.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./month-of-foss-contributions-apr-13.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./month-of-foss-contributions-mar-13.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./logging-in-django.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./month-of-foss-contributions-feb-13.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./pycon-india-2012-talk.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./announcing-editorize-beta.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>./compiz-productivity.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+
+  <url>
+    <loc>./pages/about-me.html</loc>
+    <priority>1.0</priority>
+  </url>
+
+
+</urlset>

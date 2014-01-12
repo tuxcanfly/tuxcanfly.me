@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Does not compute</title><link>http://tuxcanfly.me/</link><description></description><atom:link href="http://tuxcanfly.me/feeds/talk.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 05 May 2013 22:00:00 +0530</lastBuildDate><item><title>Bitcoin for developers</title><link>http://tuxcanfly.me/bitcoin-for-developers.html</link><description>&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;This was a talk on Bitcoin I presented at Agiliq - April 2013&lt;/p&gt;
+&lt;div style="height:60%; width:60%"&gt;
+    &lt;script async class="speakerdeck-embed" data-id="5350f0707f4001303c5e22000a1d8ce4" data-ratio="1.33333333333333" src="http://speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Javed Khan</dc:creator><pubDate>Sun, 05 May 2013 22:00:00 +0530</pubDate><guid>tag:tuxcanfly.me,2013-05-05:bitcoin-for-developers.html</guid><category>bitcoin</category><category>talk</category></item><item><title>Logging in Django</title><link>http://tuxcanfly.me/logging-in-django.html</link><description>&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;This was a talk I presented at Hyderbad Python meetup - March 2013&lt;/p&gt;
+&lt;div style="height:60%; width:60%"&gt;
+    &lt;script async class="speakerdeck-embed" data-id="b33f5e2074ec0130286a22000a1f8aa6" data-ratio="1.33333333333333" src="http://speakerdeck.com/assets/embed.js"&gt;&lt;/script&gt;
+&lt;/div&gt;&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Javed Khan</dc:creator><pubDate>Sat, 30 Mar 2013 17:00:00 +0530</pubDate><guid>tag:tuxcanfly.me,2013-03-30:logging-in-django.html</guid><category>django</category><category>talk</category></item><item><title>Developing Ubuntu Apps for fun and profit</title><link>http://tuxcanfly.me/pycon-india-2012-talk.html</link><description>&lt;div class="section" id="about"&gt;
+&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;This was a talk I presented at PyCon India 2012.&lt;/p&gt;
+&lt;iframe src="https://docs.google.com/presentation/d/1FCkHcZ8cim0oy58sOcG7xeyL4HKmP4v8xR4_wdnLYxM/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"&gt;&lt;/iframe&gt;&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Javed Khan</dc:creator><pubDate>Sat, 23 Feb 2013 17:00:00 +0530</pubDate><guid>tag:tuxcanfly.me,2013-02-23:pycon-india-2012-talk.html</guid><category>ubuntu</category><category>talk</category></item></channel></rss>
