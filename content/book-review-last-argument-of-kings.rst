@@ -1,4 +1,4 @@
-Last argument of kings - Joe Abercrombie
+Last Argument Of Kings - Joe Abercrombie
 ########################################
 
 :date: 2014-01-12 21:35
@@ -30,7 +30,7 @@ Glokta returns from Dagoska and is surprised to be promoted to the role of
 Superior. Now, his task is to uncover the mysterious death of the crown prince
 and rig the elections to make sure Arch Lector Sult isn't embarrassed by the
 soon to be elected King. As he investigates, he finds himself in a tough spot
-as his beneficiary, the mysterious bank of Valint and Balk wants him to spy on
+as his beneficiary, the mysterious bank of Valint and Balk, wants him to spy on
 his master, the Arch Lector himself. Will Glokta's wish to die and get rid of
 his miserable life be fulfilled at last?
 
@@ -42,7 +42,7 @@ with huge armies. What will happen of the Union when Gurkish run over it?
 
 Ferro finds the seed in the house of the Maker, and Bayaz use this to his
 advantage against Mamun and his hundred words. The incidents in the house of
-the Maker invovling Tolomei and Yulwei makes one suspicious about the honesty
+the Maker involving Tolomei and Yulwei makes one suspicious about the honesty
 and intentions of Bayaz. Are Khalul the prophet and Mamun indeed the righteous
 ones?
 

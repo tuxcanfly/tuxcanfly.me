@@ -1,4 +1,4 @@
-Before they are hanged - Joe Abercrombie
+Before They Are Hanged - Joe Abercrombie
 ########################################
 
 :date: 2014-01-12 21:30
@@ -20,7 +20,7 @@ Review:
 
     We should forgive our enemies, but not before they are hanged.
 
-    -- Heinrich_Heine
+    -- Heinrich Heine
 
     Honour, eh? What the hell is that anyway? Every man thinks it's something
     different. You can't drink it. You can't fuck it. The more of it you have the
@@ -49,7 +49,7 @@ his witch?
 We see a change starting to grow in all the major characters - Jezal begins to
 outgrow his vanity as he's rescued by Ferro and Logan; Logan and Ferro fall in
 love - if it could be called that; Glokta shows his soft side as he forgives a
-known traitor - Majester Aida instead of sticking her head on a spear as Arch
+known traitor, Majester Aida, instead of sticking her head on a spear as Arch
 Lector Sult would have wanted it.
 
 A little philosophical rant by Bayaz on how a king should rule and the history
