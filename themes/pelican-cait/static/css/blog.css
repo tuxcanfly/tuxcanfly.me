@@ -174,7 +174,8 @@ blockquote p.attribution {
     margin-top: 0; }
 
   #site-header {
-    margin-left: 18px; }
+    margin-left: 18px;
+    text-align: center; }
 
   .side-shadow {
     -webkit-box-shadow: 0 3px 12px 3px #8e927e;
@@ -185,7 +186,8 @@ blockquote p.attribution {
     padding: 0 12px; } }
 @media only screen and (max-width: 640px) {
   #nav-links {
-    font-size: 1.1em; }
+    font-size: 1.1em;
+    text-align: center; }
 
   #site-desc {
     font-size: 1em; }
