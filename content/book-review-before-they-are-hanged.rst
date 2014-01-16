@@ -2,7 +2,7 @@ Before They Are Hanged - Joe Abercrombie
 ########################################
 
 :date: 2014-01-12 21:30
-:tags: fantasy, books
+:tags: fantasy, books, first-law
 :category: book-review
 :slug: before-they-are-hanged
 :author: Javed Khan

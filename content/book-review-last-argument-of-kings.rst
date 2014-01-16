@@ -2,7 +2,7 @@ Last Argument Of Kings - Joe Abercrombie
 ########################################
 
 :date: 2014-01-12 21:35
-:tags: fantasy, books
+:tags: fantasy, books, first-law
 :category: book-review
 :slug: last-argument-of-kings
 :author: Javed Khan

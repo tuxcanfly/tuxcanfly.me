@@ -2,7 +2,7 @@ The Blade Itself - Joe Abercrombie
 ##################################
 
 :date: 2013-11-20 23:40
-:tags: fantasy, books
+:tags: fantasy, books, first-law
 :category: book-review
 :slug: the-blade-itself
 :author: Javed Khan
