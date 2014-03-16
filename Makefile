@@ -47,6 +47,7 @@ clean:
 
 regenerate: clean
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	cp -r raw/ output/
 
 serve:
 	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
