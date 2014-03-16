@@ -22,6 +22,7 @@ I'm currently employed at `Agiliq`_.
 
 .. _Agiliq: http://agiliq.com
 
-Here's my `resume`_.
+Here's my resume `online`_ or as `PDF`_.
 
-.. _resume: /raw/resume.html
+.. _online: /raw/resume.html
+.. _PDF: /resume.pdf
