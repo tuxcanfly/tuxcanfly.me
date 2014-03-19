@@ -18,6 +18,11 @@ I'm Javed Khan and I'm a developer based out of Hyderabad, India.
 
 This blog collects my open source works, book reviews and opinions.
 
-I'm currently employed at `Agiliq`_
+I'm currently employed at `Agiliq`_.
 
 .. _Agiliq: http://agiliq.com
+
+Here's my resume `online`_ or as `PDF`_.
+
+.. _online: /raw/resume.html
+.. _PDF: /resume.pdf
