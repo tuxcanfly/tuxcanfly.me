@@ -30,7 +30,7 @@ It's Open Source
 
 Instead of blindly trusting your payment provider to keep your money safe, you
 can take care of it yourself. You don't have to trust anyone (well, maybe
-except you're compiler). As a developer, you have the complete source code for
+except your compiler). As a developer, you have the complete source code for
 reference. No more reverse-engineering.
 
 It's Decentralized
