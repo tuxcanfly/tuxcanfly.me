@@ -32,7 +32,7 @@ help:
 	@echo '   rsync_upload                     upload the web site via rsync+ssh  '
 	@echo '   dropbox_upload                   upload the web site via Dropbox    '
 	@echo '   ftp_upload                       upload the web site via FTP        '
-	@echo '   github                           upload the web site via gh-pages   '
+	@echo '   push                             push to github   '
 	@echo '                                                                       '
 
 
@@ -71,18 +71,7 @@ dropbox_upload: publish
 ftp_upload: publish
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
 
-github: publish
-	git branch -D master
-	git checkout --orphan master
-	git rm -rf .
-	rm *.pyc
-	find output -mindepth 1 -maxdepth 1 -exec mv -t. -- {} +
-	rmdir output
-	git add .
-	git commit -m "published a new post"
-	git merge -s ours origin/master --no-edit
-	git push origin master
-	git checkout blog
+push:
 	git push
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload push
