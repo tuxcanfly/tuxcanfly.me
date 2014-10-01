@@ -16,8 +16,6 @@ SSH_PORT=774
 SSH_USER=tuxcanfly
 SSH_TARGET_DIR=/usr/share/nginx/www
 
-DROPBOX_DIR=~/Dropbox/Public/
-
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
@@ -32,7 +30,7 @@ help:
 	@echo '   rsync_upload                     upload the web site via rsync+ssh  '
 	@echo '   dropbox_upload                   upload the web site via Dropbox    '
 	@echo '   ftp_upload                       upload the web site via FTP        '
-	@echo '   push                             push to github   '
+	@echo '   github                           upload the web site via gh-pages   '
 	@echo '                                                                       '
 
 
@@ -47,7 +45,6 @@ clean:
 
 regenerate: clean
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-	cp -r raw/ output/
 
 serve:
 	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
@@ -55,23 +52,10 @@ serve:
 devserver:
 	$(BASEDIR)/develop_server.sh restart
 
-publish: clean
+publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-	cp -r raw/ output/
 
-ssh_upload: publish
-	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+upload: publish
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-rsync_upload: publish
-	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR) $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
-
-dropbox_upload: publish
-	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
-
-ftp_upload: publish
-	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUTDIR) $(FTP_TARGET_DIR) ; quit"
-
-push:
-	git push
-
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload push
+.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
