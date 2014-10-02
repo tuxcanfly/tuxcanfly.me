@@ -39,6 +39,7 @@ html: clean $(OUTPUTDIR)/index.html
 
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	if test -d $(BASEDIR)/raw; then cp -r $(BASEDIR)/raw $(OUTPUTDIR)/; fi
 
 clean:
 	find $(OUTPUTDIR) -mindepth 1 -delete
@@ -54,6 +55,7 @@ devserver:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	if test -d $(BASEDIR)/raw; then cp -r $(BASEDIR)/raw $(OUTPUTDIR)/; fi
 
 upload: publish
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
