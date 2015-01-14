@@ -81,7 +81,7 @@ history of mankind.
 
 After months of careful analysis the researchers finally had an answer. The
 graphene sheets contained a mapping of *their* words and a visual
-representation of the objects. Starting from geometrical shapes, the mappings
+representation of *their* objects. Starting from geometrical shapes, the mappings
 progressed until concepts such as "planet", "life" and "seed" could be
 translated. It was concluded that the cylindrical containers were a cold
 storage of *their* genetic material. The metallic containers seemed to contain
