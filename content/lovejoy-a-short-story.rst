@@ -15,12 +15,22 @@ C/2014 Q2 (Lovejoy) - A Short Story
 
 .. epigraph::
 
-    Comet Lovejoy C/2014 Q2 is one of the latest discoveries by amateur astronomer
-    Terry Lovejoy. It is a stark reminder of how little we know about the universe
-    we inhabit and how any one of us can make a difference in expanding our
-    collective knowledge, if we decide to make a dedicated effort. Here's a short
-    sci-fi story to commemorate this tiny blip in the space, which will only happen
-    again after 8000 years:
+    Panspermia (from Greek πᾶν (pan), meaning "all", and σπέρμα (sperma), meaning
+    "seed") is the hypothesis that life exists throughout the Universe, distributed
+    by meteoroids, asteroids, comets, planetoids, and also, by spacecraft
+    in the form of unintended contamination by microorganisms.
+
+    -- wikipedia
+
+*Comet Lovejoy C/2014 Q2 is one of the latest discoveries by amateur astronomer
+Terry Lovejoy. It is a stark reminder of how little we know about the universe
+we inhabit and how any one of us can make a difference in expanding our
+collective knowledge, if we decide to make a dedicated effort.*
+
+*Here's a short sci-fi story to commemorate this tiny blip in the space,
+which will only happen again after 8000 years!*
+
+
 
 The year is 2148 and humanity has made huge advances in the areas of autonomous
 space mining and exploration. Hermes, officially CP-142,  is a comet probe
