@@ -24,7 +24,6 @@ FEED_RSS = 'feeds/all.xml'
 GRAVATAR = 'http://www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5.png'
 AUTHOR_EMAIL = 'tuxcanfly@gmail.com'
 
-DISQUS_SITENAME = 'tuxcanfly-github'
 GOOGLE_ANALYTICS = 'UA-37076247-1'
 
 # HTML related settings
@@ -34,7 +33,6 @@ SITE_KEYWORDS = u'python, django, tuxcanfly, jakh daven'
 WEBASSETS = True
 
 GITHUB_URL = 'https://github.com/tuxcanfly'
-LINKEDIN_URL = 'http://in.linkedin.com/tuxcanfly'
 TWITTER_USERNAME = 'tuxcanfly'
 
 DEFAULT_CATEGORY = 'Uncategorized'
