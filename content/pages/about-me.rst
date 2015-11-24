@@ -18,9 +18,9 @@ I'm Javed Khan and I'm a developer based out of Hyderabad, India.
 
 This blog collects my open source works, book reviews and opinions.
 
-I'm currently hacking on Bitcoin at `Conformal Systems`_.
+I'm currently hacking on Bitcoin at `Company 0`_.
 
-.. _Conformal Systems: https://www.conformal.com
+.. _Company 0: https://www.companyzero.com
 
 Here's my resume `online`_ or as `PDF`_.
 
