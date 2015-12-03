@@ -65,7 +65,7 @@ power over people's opinions?
 I really love how different themes tie together in the big picture - buggers
 are just bullies on the inter-galactic level; buggers' hivemind is similar to
 emotional manipulation that's being done to Ender; Ender, Valentine and Peter
-and their actions are remiscient of the Hindu trinity - Brahma, Vishnu and
+and their actions are reminiscent of the Hindu trinity - Brahma, Vishnu and
 Shiva.
 
 5/5 - Inspiring and thought-provoking read.
