@@ -99,7 +99,7 @@ universe with small elephant-like creatures using wheels in addition to their
 limbs. As the children go looking for the world of the dead, we find that the
 Church has dispatched a hitman to kill Lyra to prevent a prophecy which would
 end the Church's power. Mrs Coulter escapes to the Church, spies on them and
-learns of another plan to assasinate Lyra. With the introduction of Metatron,
+learns of another plan to assassinate Lyra. With the introduction of Metatron,
 the Authority's commander, the fate of the battle between Lord Asriel and all
 of the Church looms in the balance.
 
