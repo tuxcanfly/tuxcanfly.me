@@ -21,7 +21,7 @@ THEME = 'themes/pelican-cait'
 DISPLAY_PAGES_ON_MENU = True
 REVERSE_ARCHIVE_ORDER = True
 FEED_RSS = 'feeds/all.xml'
-GRAVATAR = 'https://www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5.png'
+GRAVATAR = '//www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5.png'
 AUTHOR_EMAIL = 'tuxcanfly@gmail.com'
 
 GOOGLE_ANALYTICS = 'UA-37076247-1'
