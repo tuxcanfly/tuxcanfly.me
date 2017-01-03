@@ -17,7 +17,7 @@ SECTIONS = [('Blog', 'index.html'),
         ('About', 'pages/about-me.html')]
 
 DEFAULT_PAGINATION = 10
-THEME = 'pelican-cait'
+THEME = 'themes/pelican-cait'
 DISPLAY_PAGES_ON_MENU = True
 REVERSE_ARCHIVE_ORDER = True
 FEED_RSS = 'feeds/all.xml'
