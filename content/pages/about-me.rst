@@ -27,6 +27,4 @@ Here's my resume `online`_ or as `PDF`_.
 .. _online: /raw/resume.html
 .. _PDF: /resume.pdf
 
-You can mail me at javed[at]grex.software. Here's my `GPG key`_.
-
-.. _GPG key: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0xC29994D688F6546A
+You can mail me at tuxcanfly[at]gmail.com
