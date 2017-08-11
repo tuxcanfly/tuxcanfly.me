@@ -18,9 +18,9 @@ I'm Javed Khan and I'm a developer based out of Hyderabad, India.
 
 This blog collects my open source works, book reviews and opinions.
 
-I'm currently hacking on Bitcoin at `Company 0`_.
+I'm currently hacking on Bcoin, the Bitcoin node.js implementation, at `Purse`_.
 
-.. _Company 0: https://www.companyzero.com
+.. _Purse: https://purse.io
 
 Here's my resume `online`_ or as `PDF`_.
 
