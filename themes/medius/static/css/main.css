@@ -326,4 +326,13 @@ div.pagination a:active { outline: none; color: rgba(0, 0, 0, 0.8); border-color
 
 .highlight .il { color: #0000cf; font-weight: bold; }
 
+div.figure {
+    margin: 20px;
+}
+
+div.align-center img {
+    margin: 0 auto;
+    display: block;
+}
+
 /*# sourceMappingURL=main.css.map */
