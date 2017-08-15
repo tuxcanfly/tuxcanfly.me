@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block head %}
+    {{ super() }}
+    <meta name="twitter:creator" content="{{ TWITTER_USERNAME }}">
+    <meta name="twitter:url" content="{{ SITEURL }}/{{ article.url }}">
+    <meta name="twitter:title" content="{{ SITENAME }} ~ {{ article.title }}">
+    <meta name="twitter:description" content="{{ article.summary|striptags|escape }}">
+
+    <!-- Facebook Meta Data -->
+    <meta property="og:title" content="{{ SITENAME }} ~ {{ article.title }}"/>
+    <meta property="og:description" content="{{ article.summary|striptags|escape }}"/>
+    <meta property="og:image" content=""/>
+{% endblock head %}
+{% block title %}{{ article.title }}{% endblock %}
+{% block content %}
+<h2 class="post_title post_detail"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+                                                                             title="Permalink to {{ article.title }}">{{ article.title }}</a></h2>
+    <section id="content">
+        <article>
+            <div class="entry-content blog-post">
+                {{ article.content }}
+            </div>
+
+            {% if DISQUS_SITENAME %}
+                <div class="comments">
+                    <h2>Comments !</h2>
+                    <div id="disqus_thread"></div>
+                    <script type="text/javascript">
+                        var disqus_identifier = "{{ article.url }}";
+                        (function () {
+                            var dsq = document.createElement('script');
+                            dsq.type = 'text/javascript';
+                            dsq.async = true;
+                            dsq.src = 'https://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+                            (document.getElementsByTagName('head')[0] ||
+                            document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+                    </script>
+                </div>
+            {% endif %}
+        </article>
+    </section>
+{% endblock %}

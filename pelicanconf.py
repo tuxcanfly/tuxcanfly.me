@@ -29,10 +29,11 @@ SOCIAL = (('twitter', 'https://twitter.com/tuxcanfly'),
 
 DEFAULT_PAGINATION = 10
 
-THEME='themes/medius/'
+THEME='themes/pelican-blue/'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+AVATAR = "https://www.gravatar.com/avatar/aa005848320b65eeb0f3413c6adcead5?s=128"
 
 STATIC_PATHS = [
     'images',
@@ -48,3 +49,17 @@ EXTRA_PATH_METADATA = {
     'extra/resume.pdf': {'path': 'resume.pdf'},
 }
 
+SIDEBAR_DIGEST = 'Blockchain Specialist'
+
+FAVICON = '/favicon.ico'
+
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_FOOTER = False
+DISPLAY_SUMMARY = True
+
+# TWITTER_USERNAME = 'tuxcanfly'
+
+MENUITEMS = (('Blog', '/'),
+             ('About', '/pages/about-me.html'),
+             ('Resume', '/resume.pdf'),)
