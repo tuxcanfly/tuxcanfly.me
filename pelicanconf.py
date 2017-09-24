@@ -29,7 +29,7 @@ SOCIAL = (('twitter', 'https://twitter.com/tuxcanfly'),
 
 DEFAULT_PAGINATION = 10
 
-THEME='themes/pelican-blue/'
+THEME='themes/medius'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -63,3 +63,14 @@ DISPLAY_SUMMARY = True
 MENUITEMS = (('Blog', '/'),
              ('About', '/pages/about-me.html'),
              ('Resume', '/resume.pdf'),)
+
+MEDIUS_AUTHORS = {
+    'Javed Khan': {
+        'description': """
+            Protocol Engineer, Bcoin. Founder, MerkleBlock.
+        """,
+        'image': 'https://tuxcanfly.me/images/tuxcanfly.jpg',
+        'links': (('github', 'https://github.com/tuxcanfly'),
+                  ('twitter-square', 'https://twitter.com/tuxcanfly')),
+    }
+}
