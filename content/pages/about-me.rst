@@ -22,8 +22,12 @@ I'm currently hacking on Bcoin, the Bitcoin node.js implementation, at `Purse`_.
 
 .. _Purse: https://purse.io
 
-Here's my resume as `PDF`_.
+Here's my resume as `resume`_.
 
-.. _PDF: /resume.pdf
+.. _resume: /resume.pdf
+
+My `masters`_ dissertation was based on  simulating 32MB blocks on the bitcoin blockchain.
+
+.. _masters: /masters.pdf
 
 You can mail me at tuxcanfly[at]gmail.com

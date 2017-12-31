@@ -40,13 +40,15 @@ STATIC_PATHS = [
     'extra/robots.txt',
     'extra/favicon.ico',
     'extra/CNAME',
-    'extra/resume.pdf'
+    'extra/resume.pdf',
+    'extra/masters.pdf'
 ]
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
     'extra/CNAME': {'path': 'CNAME'},
     'extra/resume.pdf': {'path': 'resume.pdf'},
+    'extra/masters.pdf': {'path': 'masters.pdf'}
 }
 
 SIDEBAR_DIGEST = 'Blockchain Specialist'
